@@ -1,0 +1,14 @@
+1. Write a program that counts the number of bits set on (=one bits) in an integer. For example the number 5 in decimal, which is 0101 in binary, has two bits set on. Unlike C/C++/C#, Java does not have unsigned integer data types. In an integer field leave the leftmost bit unused (zero). If you input the integer and print the result as hexadecimal you can easily check if the conversion is correct.
+
+2. Write a program that takes a 32-bit integer and splits it into four pieces each containing a byte / 8-bits. Use hexadecimal values to represent each byte (in printf use the %x format specifier to print a hexadecimal).
+
+mask1 = 0xFF000000;  
+mask2 = 0x00FF0000;  
+mask3 = 0x0000FF00;  
+mask4 = 0xFF;
+
+3. Write a program that will take the bits in a number and shift them to the left end. For example 01010110 would become 11110000. Unlike C/C++/C#, Java does not have unsigned integer data types. In an integer field leave the leftmost bit unused (zero).
+
+4. A) Write a program that calculates the sum of 0.1 and 0.2 and stores the result in a double type of variable. Print the variable value. What do you notice?
+B) Write a program that compares if the sum of 0.1 and 0.2 equals 0.3 (using the equality operator). What do you notice? How to fix the program?
+
